@@ -1,5 +1,6 @@
 import "./App.css"
 import Tokenomics from "./assets/Tokenomics"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Lore from "./components/Lore"
 import Navbar from "./components/Navbar"
@@ -15,6 +16,7 @@ function App() {
       <Speedmap />
       <Tokenomics />
       <Socials />
+      <Footer />
     </>
   )
 }

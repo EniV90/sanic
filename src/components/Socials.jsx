@@ -9,11 +9,14 @@ const Socials = () => {
         </h2>
 
         <div className="my-12 flex flex-wrap justify-around items-center gap-8">
-          
           <a href="/">
             <button className="btn-primary">Telegram</button>
           </a>
-          <a href="/">
+          <a
+            href="https://twitter.com/SanicCoin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="btn-primary">X</button>
           </a>
           <a href="/">

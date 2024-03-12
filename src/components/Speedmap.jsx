@@ -5,62 +5,62 @@ const Speedmap = () => {
     {
       id: 1,
       title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      description: "Super Sanic",
+      image: "/src/assets/SuperSani-0.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "1M MC",
+      description: "Hyper SaNic",
+      image: "/src/assets/HypeSanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "5M MC",
+      description: "DankSpine SaNic",
+      image: "/src/assets/DarkspinSanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "10M MC",
+      description: "Dark SaNic",
+      image: "/src/assets/DarkSanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "25M MC",
+      description: "Super SaNic Hyper gOD",
+      image: "/src/assets/SuperSanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "50M MC",
+      description: "SSHG-BLUE Mode SaNic",
+      image: "/src/assets/SuperSanigod.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "100M MC",
+      description: "OMNIPITENT SaNic",
+      image: "/src/assets/OSsanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "250M MC",
+      description: "BEYOND OMNIPITENT SaNic",
+      image: "/src/assets/BOSsanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "500M MC",
+      description: "INFINITELY-B OMNIPITENT SaNic",
+      image: "/src/assets/IBOSsanic.png",
     },
     {
       id: 1,
-      title: "100 MC",
-      description: "Hyper Sanic",
-      image: "/src/assets/bluesanic.webp",
+      title: "1B MC",
+      description: "TRU SaNic",
+      image: "/src/assets/TrueSanic.png",
     },
   ]
   return (
@@ -70,8 +70,7 @@ const Speedmap = () => {
       </h2>
       <div className="flex flex-col md:flex-row justify-between mb-6">
         <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-          aliquam?
+          These are the stages of gotta go fast, we must cross <br /> every level to find TRU SaNic
         </p>
         <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
@@ -93,10 +92,10 @@ const Speedmap = () => {
                   className="max-w-full max-h-full"
                 />
               </div>
-              <h5 className="text-2xl font-bold text-natural-grey mb-2 px-2">
+              <h5 className=" font-bold text-natural-grey mb-2 px-2">
                 {service.title}
               </h5>
-              <h4 className="text-3xl text-natural-color">
+              <h4 className="text-2xl text-natural-color">
                 {service.description}
               </h4>
             </div>

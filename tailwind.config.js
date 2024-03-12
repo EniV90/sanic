@@ -14,6 +14,7 @@ export default {
         "natural-blue": "#0812a3",
         "natural-color": "#000005",
         "natural-grey": "#18191f",
+        "natural-red": "#bf0606",
         "lightning-blue": "#7DF9FF",
       },
     },

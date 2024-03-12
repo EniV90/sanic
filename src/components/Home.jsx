@@ -1,7 +1,8 @@
 import { Carousel } from "flowbite-react"
 import React from "react"
 import bluesanic from "../assets/bluesanic.webp"
-
+import BOSsanic from "../assets/BOSsanic.png"
+import TrueSanic from "../assets/TrueSanic.png"
 const Home = () => {
   return (
     <div className="bg-natural-silver">
@@ -30,7 +31,7 @@ const Home = () => {
               </h1>
             </div>
             <div>
-              <img src={bluesanic} alt="" />
+              <img src={BOSsanic} alt="" />
             </div>
           </div>
           <div className=" my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
@@ -43,7 +44,7 @@ const Home = () => {
               </h1>
             </div>
             <div>
-              <img src={bluesanic} alt="" />
+              <img src={TrueSanic} alt="" />
             </div>
           </div>
         </Carousel>
