@@ -64,7 +64,7 @@ const Speedmap = () => {
     },
   ]
   return (
-    <div className="mt-20 mx-auto text-center" id="speedmap">
+    <div className=" mx-auto text-center" id="speedmap">
       <h2 className="text-4xl text-natural-blue font-semibold mb-3">
         SPEEDMAP
       </h2>

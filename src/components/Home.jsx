@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className=" my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="md:w-1/2">
-              <h1 className="text-5xl px-16 font-semibold mb-4 text-natural-grey md:w-3/4 leading-snug">
+              <h1 className="text-6xl px-16 font-semibold mb-4 text-natural-grey md:w-3/4 leading-snug">
                 Gotta go{" "}
                 <span className="text-natural-blue leading-snug">
                   <i>Fast</i>
@@ -34,7 +34,7 @@ const Home = () => {
           </div>
           <div className=" my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div className="md:w-1/2">
-              <h1 className="text-5xl px-16 font-semibold mb-4 text-natural-grey md:w-3/4 leading-snug">
+              <h1 className="text-6xl px-16 font-semibold mb-4 text-natural-grey md:w-3/4 leading-snug">
                 Gotta go{" "}
                 <span className="text-natural-blue leading-snug">
                   <i>Fast</i>
