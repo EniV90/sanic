@@ -4,7 +4,7 @@ import {FaXmark, FaBars} from "react-icons/fa6"
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isSticky, setIsSticky] = useState(false);
-
+   
     const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
 }
@@ -24,6 +24,12 @@ const Navbar = () => {
             window.addEventListener("scroll", handleScroll)
         }
     })
+  
+   const handleLinkClick = (path) => {
+     setIsMenuOpen(false) 
+     
+   }
+
 
     const navItems = [
         // {link: "HOME", path: "home" },
@@ -33,7 +39,10 @@ const Navbar = () => {
         {link: "SOCIALS", path: "socials" },
     ]
   return (
-    <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0" id='/'>
+    <header
+      className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0"
+      id="/"
+    >
       <nav
         className={`py-4 lg:px-14 px-4 ${
           isSticky
@@ -58,6 +67,7 @@ const Navbar = () => {
                 offset={-100}
                 key={path}
                 className="block cursor-pointer text-base text-natural-grey hover:text-natural-blue first:font-medium"
+                
               >
                 {link}
               </Link>
@@ -99,6 +109,7 @@ const Navbar = () => {
               offset={-100}
               key={path}
               className="block text-base text-white hover:text-natural-blue first:font-medium"
+              onClick={() => handleLinkClick(path)}
             >
               {link}
             </Link>
