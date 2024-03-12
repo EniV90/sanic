@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+import React from "react"
 import bluesanic from "../assets/bluesanic.webp"
 const Lore = () => {
   return (
@@ -12,11 +13,16 @@ const Lore = () => {
             LORE
           </h2>
           <p className="md:w-3/4 text-sm text-natural-grey mb-8">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil,
-            dolorem. Dolore quas ipsum eveniet ea adipisci necessitatibus
-            repellat, eum, harum itaque, eius quaerat perspiciatis molestiae
-            autem? Illo impedit minus reiciendis, quis repudiandae ab saepe
-            odit, veritatis rem sed expedita quasi?
+            In a universe where chaos reigned supreme, SaNic, birthed from the
+            mind of Onyxheart, defied all logic as a hyper-speedy, idiotic child
+            of the cosmos. With speeds surpassing 12 times that of light, Sanic
+            raced through time and space, leaving confusion in the mind of jeets
+            and laughter in his wake. Despite his creator's intentions, the
+            world embraced Sanic not as a fool, but as a symbol of prosperity
+            and entertainment. From his inception on March 31, 2010, Sanic
+            captured the hearts of every degen forever immortalized as a beloved
+            meme. And though his speed knew no bounds, SaNic's true legacy was
+            his ability to unite a world through laughter and silliness.
           </p>
         </div>
       </div>

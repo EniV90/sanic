@@ -10,5 +10,5 @@ header {
 }
 
 .btn-primary {
-  @apply px-7 py-2 bg-natural-color text-white rounded hover:bg-natural-grey transition-all duration-300 hover:translate-y-4;
+  @apply px-7 py-2 bg-natural-color text-white rounded hover:bg-natural-grey transition-all duration-300 hover:-translate-y-4;
 }

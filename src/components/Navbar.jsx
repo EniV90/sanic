@@ -29,6 +29,7 @@ const Navbar = () => {
         // {link: "HOME", path: "home" },
         {link: "LORE", path: "lore" },
         {link: "SPEEDMAP", path: "speedmap" },
+        {link: "TOKENOMICS", path: "tokenomics" },
         {link: "SOCIALS", path: "socials" },
     ]
   return (
