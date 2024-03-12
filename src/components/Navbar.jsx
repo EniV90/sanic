@@ -33,7 +33,7 @@ const Navbar = () => {
         {link: "SOCIALS", path: "socials" },
     ]
   return (
-    <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+    <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0" id='/'>
       <nav
         className={`py-4 lg:px-14 px-4 ${
           isSticky
@@ -57,7 +57,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-base text-natural-grey hover:text-natural-blue first:font-medium"
+                className="block cursor-pointer text-base text-natural-grey hover:text-natural-blue first:font-medium"
               >
                 {link}
               </Link>

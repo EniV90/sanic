@@ -6,65 +6,65 @@ const Speedmap = () => {
       id: 1,
       title: "100 MC",
       description: "Super Sanic",
-      image: "/src/assets/SuperSani-0.png",
+      image: "/assets/SuperSani-0.png",
     },
     {
       id: 1,
       title: "1M MC",
       description: "Hyper SaNic",
-      image: "/src/assets/HypeSanic.png",
+      image: "/assets/HypeSanic.png",
     },
     {
       id: 1,
       title: "5M MC",
       description: "DankSpine SaNic",
-      image: "/src/assets/DarkspinSanic.png",
+      image: "/assets/DarkspinSanic.png",
     },
     {
       id: 1,
       title: "10M MC",
       description: "Dark SaNic",
-      image: "/src/assets/DarkSanic.png",
+      image: "/assets/DarkSanic.png",
     },
     {
       id: 1,
       title: "25M MC",
       description: "Super SaNic Hyper gOD",
-      image: "/src/assets/SuperSanic.png",
+      image: "/assets/SuperSanic.png",
     },
     {
       id: 1,
       title: "50M MC",
       description: "SSHG-BLUE Mode SaNic",
-      image: "/src/assets/SuperSanigod.png",
+      image: "/assets/SuperSanigod.png",
     },
     {
       id: 1,
       title: "100M MC",
       description: "OMNIPITENT SaNic",
-      image: "/src/assets/OSsanic.png",
+      image: "/assets/OSsanic.png",
     },
     {
       id: 1,
       title: "250M MC",
       description: "BEYOND OMNIPITENT SaNic",
-      image: "/src/assets/BOSsanic.png",
+      image: "/assets/BOSsanic.png",
     },
     {
       id: 1,
       title: "500M MC",
       description: "INFINITELY-B OMNIPITENT SaNic",
-      image: "/src/assets/IBOSsanic.png",
+      image: "/assets/IBOSsanic.png",
     },
     {
       id: 1,
       title: "1B MC",
       description: "TRU SaNic",
-      image: "/src/assets/TrueSanic.png",
+      image: "/assets/TrueSanic.png",
     },
   ]
   return (
-    <div className="mt-20 mx-auto text-center">
+    <div className="mt-20 mx-auto text-center" id="speedmap">
       <h2 className="text-4xl text-natural-blue font-semibold mb-3">
         SPEEDMAP
       </h2>

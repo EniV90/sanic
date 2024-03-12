@@ -1,5 +1,5 @@
 import "./App.css"
-import Tokenomics from "./assets/Tokenomics"
+import Tokenomics from "./components/Tokenomics"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Lore from "./components/Lore"
