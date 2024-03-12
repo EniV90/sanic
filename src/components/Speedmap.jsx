@@ -70,7 +70,8 @@ const Speedmap = () => {
       </h2>
       <div className="flex flex-col md:flex-row justify-between mb-6">
         <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-          These are the stages of gotta go fast, we must cross <br /> every level to find TRU SaNic
+          These are the stages of gotta go fast, we must cross <br /> every
+          level to find TRU SaNic
         </p>
         <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
@@ -82,7 +83,7 @@ const Speedmap = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="px-4 py-8 md:w-[calc(50% - 2rem)] lg:w-[calc(33.33% - 2rem)]  text-center mx-auto md:h-60 rounded-md shadow cursor-pointer  hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
+            className="px-4 py-8 w-full md:w-[calc(50% - 2rem)] lg:w-[calc(33.33% - 2rem)]  text-center mx-auto md:h-60 rounded-md shadow cursor-pointer  hover:-translate-y-5 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex items-center justify-center h-full"
           >
             <div>
               <div className="mb-4 h-20 w-23 flex items-center justify-center">
