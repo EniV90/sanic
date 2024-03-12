@@ -4,7 +4,7 @@ const Speedmap = () => {
   const services = [
     {
       id: 1,
-      title: "100 MC",
+      title: "100K MC",
       description: "Super Sanic",
       image: "/assets/SuperSani-0.png",
     },
