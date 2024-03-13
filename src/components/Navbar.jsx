@@ -67,7 +67,6 @@ const Navbar = () => {
                 offset={-100}
                 key={path}
                 className="block cursor-pointer text-base text-natural-grey hover:text-natural-blue first:font-medium"
-                
               >
                 {link}
               </Link>
@@ -75,9 +74,15 @@ const Navbar = () => {
           </ul>
 
           <div className="space-x-12 hidden lg:flex items-center">
-            <button className="bg-natural-blue text-white py-2 px-4 transition-all duration-300 rounded hover:bg-natural-grey">
-              Telegram
-            </button>
+            <a
+              href="https://dexscreener.com/base/0x76a2678b3ff2a769903f91dd8ef79c3d6cd11b60"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-natural-grey text-white py-2 px-4  transition-all duration-300 rounded ">
+                CHART
+              </button>
+            </a>
           </div>
 
           {/* mobile btn */}
@@ -114,9 +119,15 @@ const Navbar = () => {
               {link}
             </Link>
           ))}
-          <button className="bg-natural-grey text-white py-2 px-4  transition-all duration-300 rounded ">
-            Telegram
-          </button>
+          <a
+            href="https://dexscreener.com/base/0x76a2678b3ff2a769903f91dd8ef79c3d6cd11b60"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-natural-grey text-white py-2 px-4  transition-all duration-300 rounded ">
+              CHART
+            </button>
+          </a>
         </div>
       </nav>
     </header>
@@ -124,3 +135,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+
