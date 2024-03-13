@@ -6,11 +6,11 @@ const Lore = () => {
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="lore">
       <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         <div>
-          <img src={"/assets/DarkSanic.png"} alt="" />
+          <img src={"/assets/rings.png"} alt="" />
         </div>
         <div className="md:w-3/5 mx-auto">
-          <h2 className="text-4xl text-natural-color font-semibold mb-4 md:w-4/5">
-            LOR<span className="text-natural-red">E</span>
+          <h2 className="text-4xl text-natural-natural font-semibold mb-4 md:w-4/5">
+            LORE
           </h2>
           <p className="md:w-3/4 text-sm text-natural-grey mb-8">
             In a universe where chaos reigned supreme, SaNic, birthed from the
