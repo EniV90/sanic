@@ -68,14 +68,10 @@ const Speedmap = () => {
       <h2 className="text-4xl text-natural-blue font-semibold mb-3">
         SPEEDMAP
       </h2>
-      <div className="flex flex-col md:flex-row justify-between mb-6">
-        <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
+      <div >
+        <p >
           These are the stages of gotta go fast, we must cross <br /> every
           level to find TRU SaNic
-        </p>
-        <p className="md:w-1/2 md:pr-4 mb-4 md:mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-          aliquam?
         </p>
       </div>
       {/* cards */}
